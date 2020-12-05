@@ -1,0 +1,37 @@
+﻿.menu{
+    width: 100%;
+
+}
+
+.menu .menu__item {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    cursor: pointer;
+    height: 40px;
+}
+
+.menu .menu__item:hover {
+    background-color: #e5e5e5;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    cursor: pointer;
+    height: 40px;
+}
+
+
+.menu .menu__item .menu__item--icon{
+    width: 24px;
+    height: 24px;
+}
+
+.menu .menu__item .menu__item--icon {
+    width: 24px;
+    height: 24px;
+    background-color: crimson;
+}
+
+.icon-dashboard {
+    background-image: url('../../content/icon/dashboard.png');
+}

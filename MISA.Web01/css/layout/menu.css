@@ -24,13 +24,9 @@
 .menu .menu__item .menu__item--icon{
     width: 24px;
     height: 24px;
+    background-size: contain;
 }
 
-.menu .menu__item .menu__item--icon {
-    width: 24px;
-    height: 24px;
-    background-color: crimson;
-}
 
 .icon-dashboard {
     background-image: url('../../content/icon/dashboard.png');

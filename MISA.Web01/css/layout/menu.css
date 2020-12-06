@@ -21,10 +21,11 @@
 }
 
 
-.menu .menu__item .menu__item--icon{
+.menu .menu__item .menu__item--icon {
     width: 24px;
     height: 24px;
     background-size: contain;
+    background-color:white;
 }
 
 

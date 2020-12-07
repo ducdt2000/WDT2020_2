@@ -1,6 +1,5 @@
 ﻿.menu{
     width: 100%;
-
 }
 
 .menu .menu__item {
@@ -8,7 +7,14 @@
     align-items: center;
     padding-left: 20px;
     cursor: pointer;
-    height: 40px;
+    height: 44px;
+}
+
+.menu .menu__item--text{
+    font-size: 13px;
+    font-weight: lighter;
+    color: #454545;
+    padding-left: 10px;
 }
 
 .menu .menu__item:hover {
@@ -17,18 +23,28 @@
     align-items: center;
     padding-left: 20px;
     cursor: pointer;
-    height: 40px;
+    height: 44px;
 }
-
 
 .menu .menu__item .menu__item--icon {
     width: 24px;
     height: 24px;
     background-size: contain;
-    background-color:white;
 }
 
 
 .icon-dashboard {
     background-image: url('../../content/icon/dashboard.png');
+}
+
+.icon-report{
+    background-image: url('../../content/icon/report.png');
+}
+
+.icon-dic-employee{
+    background-image: url('../../content/icon/dic-employee.png');
+}
+
+.icon-setting{
+    background-image: url('../../content/icon/setting.png');
 }

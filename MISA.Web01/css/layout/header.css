@@ -1,5 +1,95 @@
 ﻿.header {
     width: 100%;
     height: 48px;
-    background-color: brown;
+    display: flex;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.header-select{
+    margin-left: 16px;
+    margin-top: 8px;
+    height: 30px;
+    border: 0;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.header-left{
+    width: max-content;
+}
+
+.header-select-option{
+    height: 24px;
+}
+
+.header-right{
+    position: absolute;
+    right: 0;
+    width: max-content;
+    height: 48px;
+    display: flex;
+}
+
+.header-right .user-avatar{
+    background-image: url("../../content/icon/avatar-default.png");
+    background-size: 30px 30px;
+    width: 56px;
+    height: 48px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-right .user-avatar:hover{
+    background-image: url("../../content/icon/avatar-default.png");
+    background-size: 30px 30px;
+    width: 56px;
+    height: 48px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-color: #e5e5e5;
+}
+
+.header-right .user-name{
+    font-size: 13px;
+    padding-top: 15px;
+    width: calc(100% + 8px);
+    height: calc(100% - 15px);
+    font-weight: 100;
+    text-align: center;
+}
+
+.header-right .user-name:hover{
+    font-size: 13px;
+    padding-top: 15px;
+    width: calc(100% + 8px);
+    height: calc(100% - 15px);
+    font-weight: 100;
+    text-align: center;
+    color: #454545;
+    cursor: pointer;
+    background-color: #e5e5e5;
+}
+
+.header-right .user-option{
+    background-image: url("../../content/icon/option.png");
+    background-size: 20px 20px;
+    padding-right: 16px;
+    background-position: center;
+    width: 36px;
+    height: 48px;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+
+.header-right .user-option:hover{
+    background-image: url("../../content/icon/option.png");
+    background-size: 20px 20px;
+    background-position: center;
+    background-color: #e5e5e5;
+    padding-right: 16px;
+    width: 36px;
+    height: 48px;
+    margin: auto;
+    background-repeat: no-repeat;
 }

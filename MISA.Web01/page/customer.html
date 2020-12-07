@@ -16,14 +16,235 @@
                 <div class="menu__item--icon icon-dashboard"></div>
                 <div class="menu__item--text">Tổng quan</div>
             </div>
+            <div class="menu__item">
+                <div class="menu__item--icon icon-report"></div>
+                <div class="menu__item--text">Báo cáo</div>
+            </div>
+            <div class="menu__item">
+                <div class="menu__item--icon icon-dashboard"></div>
+                <div class="menu__item--text">Mua hàng</div>
+            </div>
+            <div class="menu__item">
+                <div class="menu__item--icon icon-dic-employee"></div>
+                <div class="menu__item--text">Danh mục khách hàng</div>
+            </div>
+            <div class="menu__item">
+                <div class="menu__item--icon icon-setting"></div>
+                <div class="menu__item--text">Thiết lập hệ thống</div>
+            </div>
         </div>
     </div>
     <div class="panel-right">
         <div class="header">
-
+            <div class="header-left">
+                <select class="header-select">
+                    <option value="0" class="header-select-option">Nhà hàng biển đông</option>
+                    <option value="1" class="header-select-option">Nhà hàng biển đông1</option>
+                </select>
+            </div>
+            <div class="header-right">
+                <div class="user-avatar"></div>
+                <div class="user-name">Nguyễn Kiều Anh</div>
+                <div class="user-option"></div>
+            </div>
         </div>
         <div class="content">
-
+            <div class="toolbar">
+                <div class="left-toolbar">
+                    <div class="title-content-text">Danh sách khách hàng</div>
+                    <div class="search-field">
+                        <input type="text" class="search-text" placeholder="Tìm kiếm theo Mã, Tên khác"/>
+                    </div>
+                </div>
+                <div class="right-toolbar">
+                    <div class="add-customer">
+                        <button type="button" class="add-customer-btn">Thêm khách hàng</button>
+                    </div>
+                    <div class="refresh-list">
+                        <button type="button" class="refresh-list-btn">
+                            <div class="refresh-btn-img"></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="customer-list">
+                <table class="customer-table"  width="100%" cellspacing="0">
+                    <tr class="table-title table-line">
+                        <th class="customer-id">Mã khách hàng</th>
+                        <th class="customer-name">Họ và tên</th>
+                        <th class="customer-gender">Giới tính</th>
+                        <th class="customer-birthday">Ngày sinh</th>
+                        <th class="customer-category">Nhóm khách hàng</th>
+                        <th class="customer-phone-number">Điện thoại</th>
+                        <th class="customer-email">Email</th>
+                        <th class="customer-address">Địa chỉ</th>
+                        <th class="customer-debt">Số tiền nợ</th>
+                        <th class="membership-id">Mã thẻ thành viên</th>
+                    </tr>
+                    <tr class="table-customer table-line">
+                        <td class="customer-id" >20183710a</td>
+                        <td class="customer-name">Đỗ Trọng Đức</td>
+                        <td class="customer-gender">Nam</td>
+                        <td class="customer-birthday">5/8/2000</td>
+                        <td class="customer-category">VIP1</td>
+                        <td class="customer-phone-number">0969612825</td>
+                        <td class="customer-email">erijune186@gmail.com</td>
+                        <td class="customer-address">Đê Tô Hoàng</td>
+                        <td class="customer-debt">-9.000.000</td>
+                        <td class="membership-id">KA16042000</td>
+                    </tr>                    
+                    <tr class="table-customer table-line">
+                        <td class="customer-id">KH20183710</td>
+                        <td class="customer-name">Đỗ Trọng Đức</td>
+                        <td class="customer-gender">Nam</td>
+                        <td class="customer-birthday">5/8/2000</td>
+                        <td class="customer-category">VIP1</td>
+                        <td class="customer-phone-number">0969612825</td>
+                        <td class="customer-email">erijune186@gmail.com</td>
+                        <td class="customer-address">Đê Tô Hoàng</td>
+                        <td class="customer-debt">-9.000.000</td>
+                        <td class="membership-id">KA16042000</td>
+                    </tr>
+                    <tr class="table-customer table-line">
+                        <td class="customer-id">KH20183710</td>
+                        <td class="customer-name">Đỗ Trọng Đức</td>
+                        <td class="customer-gender">Nam</td>
+                        <td class="customer-birthday">5/8/2000</td>
+                        <td class="customer-category">VIP1</td>
+                        <td class="customer-phone-number">0969612825</td>
+                        <td class="customer-email">erijune186@gmail.com</td>
+                        <td class="customer-address">Đê Tô Hoàng</td>
+                        <td class="customer-debt">-9.000.000</td>
+                        <td class="membership-id">KA16042000</td>
+                    </tr>
+                    <tr class="table-customer table-line">
+                        <td class="customer-id">KH20183710</td>
+                        <td class="customer-name">Đỗ Trọng Đức</td>
+                        <td class="customer-gender">Nam</td>
+                        <td class="customer-birthday">5/8/2000</td>
+                        <td class="customer-category">VIP1</td>
+                        <td class="customer-phone-number">0969612825</td>
+                        <td class="customer-email">erijune186@gmail.com</td>
+                        <td class="customer-address">Đê Tô Hoàng</td>
+                        <td class="customer-debt">-9.000.000</td>
+                        <td class="membership-id">KA16042000</td>
+                    </tr>
+                    <tr class="table-customer table-line">
+                        <td class="customer-id">KH20183710</td>
+                        <td class="customer-name">Đỗ Trọng Đức</td>
+                        <td class="customer-gender">Nam</td>
+                        <td class="customer-birthday">5/8/2000</td>
+                        <td class="customer-category">VIP1</td>
+                        <td class="customer-phone-number">0969612825</td>
+                        <td class="customer-email">erijune186@gmail.com</td>
+                        <td class="customer-address">Đê Tô Hoàng</td>
+                        <td class="customer-debt">-9.000.000</td>
+                        <td class="membership-id">KA16042000</td>
+                    </tr>
+                    <tr class="table-customer table-line">
+                        <td class="customer-id">KH20183710</td>
+                        <td class="customer-name">Đỗ Trọng Đức</td>
+                        <td class="customer-gender">Nam</td>
+                        <td class="customer-birthday">5/8/2000</td>
+                        <td class="customer-category">VIP1</td>
+                        <td class="customer-phone-number">0969612825</td>
+                        <td class="customer-email">erijune186@gmail.com</td>
+                        <td class="customer-address">Đê Tô Hoàng</td>
+                        <td class="customer-debt">-9.000.000</td>
+                        <td class="membership-id">KA16042000</td>
+                    </tr>
+                    <tr class="table-customer table-line">
+                        <td class="customer-id">KH20183710</td>
+                        <td class="customer-name">Đỗ Trọng Đức</td>
+                        <td class="customer-gender">Nam</td>
+                        <td class="customer-birthday">5/8/2000</td>
+                        <td class="customer-category">VIP1</td>
+                        <td class="customer-phone-number">0969612825</td>
+                        <td class="customer-email">erijune186@gmail.com</td>
+                        <td class="customer-address">Đê Tô Hoàng</td>
+                        <td class="customer-debt">-9.000.000</td>
+                        <td class="membership-id">KA16042000</td>
+                    </tr>
+                    <tr class="table-customer table-line">
+                        <td class="customer-id">KH20183710</td>
+                        <td class="customer-name">Đỗ Trọng Đức</td>
+                        <td class="customer-gender">Nam</td>
+                        <td class="customer-birthday">5/8/2000</td>
+                        <td class="customer-category">VIP1</td>
+                        <td class="customer-phone-number">0969612825</td>
+                        <td class="customer-email">erijune186@gmail.com</td>
+                        <td class="customer-address">Đê Tô Hoàng</td>
+                        <td class="customer-debt">-9.000.000</td>
+                        <td class="membership-id">KA16042000</td>
+                    </tr>
+                    <tr class="table-customer table-line">
+                        <td class="customer-id">KH20183710</td>
+                        <td class="customer-name">Đỗ Trọng Đức</td>
+                        <td class="customer-gender">Nam</td>
+                        <td class="customer-birthday">5/8/2000</td>
+                        <td class="customer-category">VIP1</td>
+                        <td class="customer-phone-number">0969612825</td>
+                        <td class="customer-email">erijune186@gmail.com</td>
+                        <td class="customer-address">Đê Tô Hoàng</td>
+                        <td class="customer-debt">-9.000.000</td>
+                        <td class="membership-id">KA16042000</td>
+                    </tr>
+                    <tr class="table-customer table-line">
+                        <td class="customer-id">KH20183710</td>
+                        <td class="customer-name">Đỗ Trọng Đức</td>
+                        <td class="customer-gender">Nam</td>
+                        <td class="customer-birthday">5/8/2000</td>
+                        <td class="customer-category">VIP1</td>
+                        <td class="customer-phone-number">0969612825</td>
+                        <td class="customer-email">erijune186@gmail.com</td>
+                        <td class="customer-address">Đê Tô Hoàng</td>
+                        <td class="customer-debt">-9.000.000</td>
+                        <td class="membership-id">KA16042000</td>
+                    </tr>
+                    <tr class="table-customer table-line">
+                        <td class="customer-id">KH20183710</td>
+                        <td class="customer-name">Đỗ Trọng Đức</td>
+                        <td class="customer-gender">Nam</td>
+                        <td class="customer-birthday">5/8/2000</td>
+                        <td class="customer-category">VIP1</td>
+                        <td class="customer-phone-number">0969612825</td>
+                        <td class="customer-email">erijune186@gmail.com</td>
+                        <td class="customer-address">Đê Tô Hoàng</td>
+                        <td class="customer-debt">-9.000.000</td>
+                        <td class="membership-id">KA16042000</td>
+                    </tr>
+                    <tr class="table-customer table-line">
+                        <td class="customer-id">KH20183710</td>
+                        <td class="customer-name">Đỗ Trọng Đức</td>
+                        <td class="customer-gender">Nam</td>
+                        <td class="customer-birthday">5/8/2000</td>
+                        <td class="customer-category">VIP1</td>
+                        <td class="customer-phone-number">0969612825</td>
+                        <td class="customer-email">erijune186@gmail.com</td>
+                        <td class="customer-address">Đê Tô Hoàng</td>
+                        <td class="customer-debt">-9.000.000</td>
+                        <td class="membership-id">KA16042000</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="footer">
+                <div class="list-number">
+                    Hiển thị 1-10/1000 Khách hàng
+                </div>
+                <div class="navigation">
+                    <button class="btn-firstpage btn-nav"><p></p></button>
+                    <button class="btn-prev-page btn-nav"><p></p></button>
+                    <button class="page-number btn-nav">1</button>
+                    <button class="page-number btn-nav">2</button>
+                    <button class="page-number btn-nav">3</button>
+                    <button class="page-number btn-nav">4</button>
+                    <button class="btn-next-page btn-nav"><p></p></button>
+                    <button class="btn-lastpage btn-nav"><p></p></button>
+                </div>
+                <div class="list-number-display">
+                    10 Khách hàng/trang
+                </div>
+            </div>
         </div>
     </div>
 </body>

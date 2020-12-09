@@ -78,17 +78,12 @@
 
 .customer-list{
     table-layout: fixed;
-    width: 100% - 16px;
     margin-left: 10px;
     margin-right: 16px;
     height: 528px;
 
     border-bottom: 1px solid #e5e5e5;
     overflow-x: auto;
-}
-
-.customer-list::-webkit-scrollbar{
-    scrollbar-width: 3px;
 }
 
 table.custom-table{

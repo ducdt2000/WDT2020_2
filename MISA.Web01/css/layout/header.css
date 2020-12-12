@@ -14,9 +14,6 @@
     font-weight: bold;
 }
 
-.header-left{
-    width: max-content;
-}
 
 .header-select-option{
     height: 24px;
@@ -25,7 +22,6 @@
 .header-right{
     position: absolute;
     right: 0;
-    width: max-content;
     height: 48px;
     display: flex;
 }
